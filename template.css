@@ -1,0 +1,74 @@
+body {
+	background-image: url("images/header_bg.jpg");
+	background-size: 1349px 667px;
+	overflow: hidden;
+	margin: 0px;
+}
+
+* {
+	font-family: roboto;
+}
+
+
+#content {
+	color: grey;
+	display: block;
+	width: 1000px;
+	margin: 100px 0px 0px 32%;
+	word-spacing: 50px;
+}
+
+#logo {
+	display: block;
+	margin: 15% auto 0% auto;
+}
+
+#gmail {
+	width: 300px;
+	height: auto;
+}
+
+#coding {
+	width: 300px;
+	height: auto;
+}
+
+#menu {
+	word-spacing: 20px;
+	color: grey;
+}
+a {
+	color: grey;
+}
+
+h1 {
+	color: white;
+}
+
+h2 {
+	color: white;
+}
+
+p {
+	color: white;
+}
+
+.icon-bar {
+  width: 100%;
+  background-color: white;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: right;
+  width: 5%;
+  padding: 13px 10px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 15px;
+}
+
+.active {
+  background-color: grey;
+}
+
